@@ -1,0 +1,1 @@
+# Qualcomm-QCS8250-AI-Fall-Detection-Solution
