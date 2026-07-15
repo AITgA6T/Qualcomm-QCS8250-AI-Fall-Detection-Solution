@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/2fdafa47-01e3-48e1-831a-c6d9c789ffa2
+
 # Qualcomm QCS8250 AI Fall Detection Solution
  
 ## Advantages of QCS8250
