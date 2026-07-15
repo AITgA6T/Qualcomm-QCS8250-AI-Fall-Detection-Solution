@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/2fdafa47-01e3-48e1-831a-c6d9c789ffa2
-
 # Qualcomm QCS8250 AI Fall Detection Solution
  
 ## Advantages of QCS8250
@@ -52,3 +48,4 @@ QCS8250 detects a person falling and sends a message together with a real-time i
  
 <!-- Add your demo GIF: ![Demo](assets/demo.gif) -->
 <!-- Or MP4: drag assets/demo.mp4 into the GitHub README editor / an Issue, then paste the generated https://github.com/user-attachments/assets/... URL here. -->
+https://github.com/user-attachments/assets/2fdafa47-01e3-48e1-831a-c6d9c789ffa2
