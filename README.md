@@ -9,23 +9,23 @@
 ## Performance Metrics
  
 - **AI Model**:
-  - Human Detection (人形偵測)：Yolov5 (trained on self-collected dataset + CrowdHuman dataset)
-  - Fall Determination (跌倒判斷)：Camera BBox aspect-ratio & vertical-drop analysis
+  - Human Detection：Yolov5 (trained on self-collected dataset + CrowdHuman dataset)
+
 - **mmWave Radar Algorithm**:
   - 3D People Counting (TI-provided algorithm) with point-cloud centroid tracking
   - Fall determination based on centroid height drop rate and absolute height threshold
+    
 ## Hardware
  
-- **Platform**: Thundercomm QCS8250 Development Board
+- **Platform**: [Qualcomm QCS8250](https://www.qualcomm.com/internet-of-things/products/q8-series/qcs8250) 
 - **Radar Sensor**: TI IWR6843 mmWave Radar module
 - **Camera**: UVC Camera
+  
 ## Software & Toolkit
- 
 - **Development Environment**: Android Studio
 - **Python-Android Bridge**: Chaquopy 14.0.2
-- **Python Packages**: scipy, requests, numpy
 - **Notification Service**: LINE Notify API
-- **Model Labeling/Conversion**: LabelImg, Roboflow
+
 ## Background & Solution
  
 ### Motivation
@@ -36,14 +36,12 @@ Existing single-technology fall detection approaches each have inherent pain poi
  
 By integrating Camera and mmWave Radar technologies, the two approaches compensate for each other's weaknesses, improving the accuracy and reliability of fall detection.
  
-
 ## Architecture Diagram
  
 QCS8250 detects a person falling and sends a message together with a real-time image to a LINE Notify group, allowing the user to immediately confirm and respond to the situation.
  
 ![Architecture Diagram](assets/architecture.png)
  
-
 ## Demo
  
 <!-- Add your demo GIF: ![Demo](assets/demo.gif) -->
